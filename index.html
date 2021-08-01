@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukansh Pendor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Staatliches&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://kit.fontawesome.com/56c759bb6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar" id="navmain">
+        <div class="logo">
+            <h3>SUK<span>AN</span>SH</h3>
+        </div>
+        <div class="nav" id="navbar">
+            <ul id="page">
+                <li id="list" onclick="myFunction1()"><a href="#home">home</a></li>
+                <li id="list1" onclick="myFunction2()"><a href="#about">about</a></li>
+                <li id="list2" onclick="myFunction3()"><a href="#skills">Skills</a></li>
+                <li id="list3" onclick="myFunction4()"><a href="#contact">Contact</a></li>
+                <li id="list4" onclick="myFunction5()"><a
+                        href="C:\Users\DELL\Downloads\New doc Jun 9, 2021 10.51 - Page 1.pdf">Resume</a></li>
+            </ul>
+            <i class="fas fa-bars" id="menu"
+                style="font-size: 40px;color: rgb(0, 217, 255);position: absolute;right:0px;margin: 10px;"
+                onclick="myFunction()"></i>
+            <i class="fas fa-times" id="cross"
+                style="font-size: 40px;color: rgb(0, 217, 255);position: absolute;right:0px;margin: 10px;display: none;"
+                onclick="hidefunction()"></i>
+        </div>
+        <!-- <button type="button" id="button" onclick="myFunction()" >Change color</button> -->
+    </div>
+    <div class="navpage" id="navpage"
+        style="width: 100vw;height: 100vh;background-color: black;z-index: 7;display: none;"></div>
+    <div class="homepage" id="home">
+        <div class="home_content">
+            <h2 data-aos="fade-up" id="head">#RIDE<span>THE</span>CREATIVITY</h2>
+            <h4>Add some effects in your life so you will shine in anothers mind...</h4>
+            <!-- <div class="line"></div> -->
+        </div>
+        <div class="shape"></div>
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+        <div class="shape4"></div>
+        <div class="shape5"></div>
+        <div class="shape6"></div>
+    </div>
+    <div class="container" id="about">
+        <div class="aboutbox">
+            <div class="firstbox" id="firstbox">
+                <h1 data-aos="fade-up">About<span>.</span></h1>
+                <h4 style="font-size: 1.3em;font-family: poppins;margin:5px 30px;color: rgb(255, 255, 255);">Sukansh
+                    Pendor</h4>
+                <h5 style="font-size: 1em;font-family: poppins;margin: 0px 30px;color: white;font-family: 13px;">Second
+                    year,Computer science and engineering</h5>
+                <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores tempora,
+                    deserunt esse omnis quod quos vero commodi dolore aliquid ut nobis odit! Numquam eveniet maiores
+                    aliquam iure rem eligendi quibusdam? <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Nostrum qui, cupiditate eveniet, fuga sequi at ullam culpa doloribus aliquid esse temporibus.
+                    Et dicta, sapiente odit unde odio vitae consectetur alias!.Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Nostrum qui, cupiditate eveniet, fuga sequi at ullam culpa doloribus aliquid esse
+                    temporibus. Et dicta, sapiente odit unde odio vitae consectetur alias!</p>
+            </div>
+        </div>
+        <!-- <div class="secondbox" >
+            <img src="C:\Users\DELL\Desktop\github projects\mypp.github.io\sukansh bg.png" style="width: 200px ;height: 200px;">
+            <h4>Add some effects in your life so you will shine in anothers mind</h4>
+        </div> -->
+    </div>
+    <div class="skills" id="skills">
+        <!-- <h2>skills</h2> -->
+        <h4>Skills</h4>
+        <div class="skill_contents">
+            <!-- <ul>
+               <div class="webd" style="display: flex;">
+            <i class="fab fa-chrome" style="color: rgb(255, 255, 255);font-size: 40px;margin: 40px;"data-aos="fade-in"></i><li data-aos="fade-right">Web Development</li>
+        </div>
+
+           <div class="webdn" style="display: flex;">
+            <i class="fas fa-crop" style="color: rgb(255, 255, 255);font-size: 40px;margin: 40px;"data-aos="fade-in"></i><li data-aos="fade-right">Web Design</li>
+        </div>
+
+             <div class="video" style="display: flex;">
+               <i class="fas fa-photo-video" style="color: rgb(255, 255, 255);font-size: 40px;margin: 40px;"data-aos="fade-in"></i><li data-aos="fade-right">Video Editing</li>
+            </div>
+
+            <div class="vector" style="display: flex;">
+               <i class="fas fa-bezier-curve" style="color: rgb(255, 255, 255);font-size: 40px;margin: 40px;"data-aos="fade-in"></i><li data-aos="fade-right">Vector Arts</li>
+            </div>
+           </ul> -->
+            <div class="shape_skill">
+                <h6>HTML</h6>
+                <div class="skill1">
+                    <center>
+                        70%
+                    </center>
+                </div>
+            </div>
+            <div class="shape_skill">
+                <h6>CSS</h6>
+                <div class="skill2">
+                    <center>
+                        60%
+                    </center>
+                </div>
+            </div>
+            <div class="shape_skill">
+                <h6>JAVASCRIPT</h6>
+                <div class="skill3">
+                    <center>
+                        50%
+                    </center>
+                </div>
+            </div>
+            <div class="shape_skill">
+                <h6>PHP</h6>
+                <div class="skill4">
+                    <center>
+                        50%
+                    </center>
+                </div>
+            </div>
+            <div class="shape_skill">
+                <h6>C PROGRAMMING</h6>
+                <div class="skill5">
+                    <center>
+                        70%
+                    </center>
+                </div>
+            </div>
+            <div class="shape_skill">
+                <h6>ADOBE ILLUTRATOR</h6>
+                <div class="skill6">
+                    <center>
+                        75%
+                    </center>
+                </div>
+            </div>
+            <div class="shape_skill">
+                <h6>FIGMA</h6>
+                <div class="skill7">
+                    <center>
+                        80%
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h4 style="position: absolute;
+        left: 0px;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif;
+        font-family: 'Righteous', cursive;
+        padding: 20px;
+        font-size: 4em;">Contact</h4>
+        <div class="form">
+            <div class="white" data-aos="fade-up">
+                <!-- <h5>Send Message</h5>
+                <div class="boxform">
+                    <h6>Name</h6>
+                    <input type="text" >
+                </div>
+                <div class="boxform">
+                    <h6>Email</h6>
+                    <input type="text" >
+                </div>
+                <div class="des">
+                    <h6>Description</h6>
+                    <textarea name="" id="" cols="20" rows="3"></textarea>
+                </div>
+                <button type="button" value="Send">Send </button> -->
+                <p style="color: rgb(0, 0, 0);padding: 30px 30px;width: 40vw;">ADD SOME EFFECTS IN YOUR LIFE SO YOU WILL
+                    SHINE IN ANOTHERS MIND..</p>
+            </div>
+            <div class="black" data-aos="fade-up">
+                <h5>Contact</h5>
+                <div class="info">
+                    <i class="fab fa-whatsapp"></i>
+                    <h6>9309791707</h6>
+                </div>
+                <div class="info">
+                    <i class="fas fa-envelope"></i>
+                    <h6> <a href="psukansh@gmail.com">psukansh@gmail.com</a> </h6>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>Social Networks</h4>
+            <div class="icons">
+                <div class="line1sm"></div>
+                <a href="https://www.instagram.com/sukansh_at__27/"><i class="fab fa-instagram-square"
+                        id="insta"></i></a>
+                <div class="line2sm"></div>
+                <a href="C:\Users\DELL\Documents\SUK PP9 PAGE ONE.pdf"><i class="fab fa-facebook-square"
+                        id="face"></i></a>
+                <div class="line3sm"></div>
+                <i class="fab fa-twitter-square" id="twit"></i>
+                <div class="line4sm"></div>
+                <i class="fab fa-linkedin" id="linkedin"></i>
+                <div class="line5sm"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+    <script>
+        let button = document.getElementById("button");
+        let home = document.getElementById("home");
+        let about = document.getElementById("about");
+        let firstbox = document.getElementById("firstbox");
+        let home_content = document.querySelector("home_content");
+        let page = document.getElementById("page");
+        let head = document.getElementById("head");
+        let navpage = document.getElementById("navpage");
+        let navmain = document.getElementById("navmain");
+        let navbar = document.getElementById("navbar");
+        let list = document.getElementById("list");
+        let list1 = document.getElementById("list1");
+        let list2 = document.getElementById("list2");
+        let list3 = document.getElementById("list3");
+        let list4 = document.getElementById("list4");
+        let menu = document.getElementById("menu");
+        let cross = document.getElementById("cross");
+
+        function myFunction() {
+            // navpage.style.zIndex='25';
+            // navpage.style.position='absolute';
+            navmain.style.height = '100vh';
+            navmain.style.transition = '0.3s';
+            page.style.display = 'block';
+            page.style.position = 'absolute';
+            page.style.margin = '200px';
+            page.style.transition = '2s';
+            list.style.fontSize = '25px';
+            list.style.marginLeft = '-170px';
+            list.style.marginTop = '-170px';
+            list.style.marginTop = '25px';
+            list1.style.fontSize = '25px';
+            list1.style.marginLeft = '-170px';
+            list1.style.marginTop = '75px';
+            list2.style.fontSize = '25px';
+            list2.style.marginLeft = '-170px';
+            list2.style.marginTop = '125px';
+            list3.style.fontSize = '25px';
+            list3.style.marginLeft = '-170px';
+            list3.style.marginTop = '175px';
+            list4.style.fontSize = '25px';
+            list4.style.marginLeft = '-170px';
+            list4.style.marginTop = '225px';
+            menu.style.display = 'none';
+            cross.style.display = 'block';
+
+
+            // navpage.style.display='block';
+            //   navpage.style.backgroundColor='rgba(0,0,0,0.5)';
+            //   navpage.style.height='100vh';
+            //   navpage.style.width='100vw';
+
+        }
+
+        function myFunction1() {
+            navmain.style.height = '70px';
+            page.style.display = 'none';
+            menu.style.display = 'block';
+            cross.style.display = 'none';
+
+            if (width >= 768) {
+                menu.style.display = 'none';
+                navmain.style.height = '70px';
+                cross.style.display = 'none';
+            }
+        }
+        function myFunction2() {
+            navmain.style.height = '70px';
+            page.style.display = 'none';
+            menu.style.display = 'block';
+            cross.style.display = 'none'
+        }
+        function myFunction3() {
+            navmain.style.height = '70px';
+            page.style.display = 'none';
+            menu.style.display = 'block';
+            cross.style.display = 'none'
+        }
+        function myFunction4() {
+            navmain.style.height = '70px';
+            page.style.display = 'none';
+            menu.style.display = 'block';
+            cross.style.display = 'none'
+        }
+        function myFunction5() {
+            navmain.style.height = '70px';
+            page.style.display = 'none';
+            menu.style.display = 'block';
+            cross.style.display = 'none'
+        }
+
+        function hidefunction() {
+            navmain.style.height = '70px';
+            page.style.display = 'none';
+            menu.style.display = 'block';
+            cross.style.display = 'none'
+        }
+
+    </script>
+</body>
+
+</html>
